@@ -1,2 +1,1 @@
-# EcoTwin
-Project 3 EcoTwin
+EcoTwin: Reinforcement Learning for Urban Carbon Dispersal
