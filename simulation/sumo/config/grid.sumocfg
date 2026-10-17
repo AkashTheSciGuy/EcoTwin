@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="../network/grid.net.xml"/>
+        <route-files value="../routes/grid.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="200"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <output>
+        <fcd-output value="../emissions/fcd.xml"/>
+        <emission-output value="../emissions/emissions.xml"/>
+        <tripinfo-output value="../../../data/raw/tripinfo.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.disable value="false"/>
+    </report>
+
+</configuration>
